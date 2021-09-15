@@ -1,7 +1,7 @@
 {
     "short_name": "React App",
     "name": "Create React App Sample",
-    "homepage": "https://jorodman.github.io/me",
+    "homepage": "https://jorodman.github.io/personalSite",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
