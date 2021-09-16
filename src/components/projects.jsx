@@ -19,9 +19,9 @@ class Projects extends React.Component {
                 <p class="description">Webapp that uses the Spotify API to create and update playlists for users based off of their top songs. The UI is a bootstrap html template, the front end uses javascript, and the backend uses express and a MySQL database</p>
               </div>
               <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                <div class="icon"><i class="bi bi-pencil-square"></i></div>
-                <h4 class="title">Course Management System</h4>
-                <p class="description">Web App similar to Canvas that manages a university’s students, classes, professors, assignments, grades, etc. Backend code, written in C# and utilizing LINQ, filled in by my partner and me</p>
+                <div class="icon"><a href="https://github.com/jorodman/me" target="_blank"><i class="bi bi-pencil-square"></i></a></div>
+                <h4 class="title"><a href="https://github.com/jorodman/me" target="_blank">Personal Website</a></h4>
+                <p class="description">Go checkout the README on my github to learn about my process for developing this website using React, the obstacles I ran into, and the cool things I learned</p>
               </div>
               <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
                 <div class="icon"><i class="bi bi-file-earmark-spreadsheet"></i></div>
