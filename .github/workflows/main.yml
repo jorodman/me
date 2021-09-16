@@ -37,6 +37,8 @@ jobs:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/master'
 
+    steps:
+
     - name: Deploy to gh-pages
       uses: jorodman/me
       with:
