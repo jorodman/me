@@ -26,6 +26,7 @@ class Header extends React.Component {
 
             <nav id="navbar" class="nav-menu navbar">
               <ul>
+                <li><a href="#hero" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Home</span></a></li>
                 <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
                 <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
                 <li><a href="#projects" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Projects</span></a></li>
