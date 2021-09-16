@@ -9,11 +9,12 @@ app.use(express.json());
 app.use("/", router);
 app.listen(8011, () => console.log("Server Running"));
 
+// This email and PW is not my real data
 const contactEmail = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: "josephrodman5@gmail.com",
-    pass: "u7c6I8PXy8sj",
+    user: "rodmanwebsite@gmail.com",
+    pass: "website99#",
   },
 });
 
