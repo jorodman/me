@@ -45,9 +45,6 @@ jobs:
         path: ./build
 
     - name: Deploy to gh-pages
-      env:
-         EMAILUSERNAME: ${{ secrets.EMAILUSERNAME }}
-         EMAILPASSWORD: ${{ secrets.EMAILPASSWORD }}
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}

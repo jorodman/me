@@ -8,7 +8,6 @@ import Skills from './components/skills.jsx';
 import Resume from './components/resume.jsx';
 import Projects from './components/projects.jsx';
 import HireMe from './components/hireme.jsx';
-import Contact from './components/contact.jsx';
 import Footer from './components/footer.jsx';
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
               <Resume />
               <Projects />
               <HireMe />
-              <Contact />
           </main>
           <Footer />
       </div>
