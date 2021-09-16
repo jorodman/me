@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 class HireMe extends React.Component {
 

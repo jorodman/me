@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 class Skills extends React.Component {
 
@@ -8,7 +8,7 @@ class Skills extends React.Component {
        script.class = "external-script";
        document.body.appendChild(script);
     }
-    
+
   render() {
     return (
         <section id="skills" class="skills section-bg">
