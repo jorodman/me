@@ -23,8 +23,9 @@ jobs:
       run: npm ci
 
     - name: Build project
-      run: CI='' npm run build
-      run: npm run server
+      run: |
+        CI='' npm run build
+        npm run server
 
     - name: Upload production-ready build files
       uses: actions/upload-artifact@v2
