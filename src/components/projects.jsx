@@ -26,7 +26,7 @@ class Projects extends React.Component {
               <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
                 <div class="icon"><i class="bi bi-file-earmark-spreadsheet"></i></div>
                 <h4 class="title">Spreadsheet Client & Server</h4>
-                <p class="description">The client was written in C# and was, and the server was written in C++. I managed the team's progress and translated spreadsheet logic from the C# program to C++</p>
+                <p class="description">The client was written in C# and the server was written in C++. I managed the team's progress and translated spreadsheet logic from the C# program to C++</p>
               </div>
               <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon"><i class="bi bi-binoculars"></i></div>

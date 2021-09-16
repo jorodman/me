@@ -25,7 +25,7 @@ class HireMe extends React.Component {
               <br></br>
               <p>
                   The bottom line is that I would love to work on a tech project that overlaps with something I'm interested in outside of tech.
-                  I would love to work for a company that is already in one of those indsutries, but it would also be fun to be on a team of other interns,
+                  I would love to work for a company that is already in one of those industries, but it would also be fun to be on a team of other interns,
                   and with the mentorship of senior software developers, deliver one of these ideas to consumers.
               </p>
             </div>
