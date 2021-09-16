@@ -39,7 +39,7 @@ jobs:
 
     steps:
     - name: Deploy to gh-pages
-      uses: jorodman/actions-gh-pages@v3
+      uses: jorodman/me
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./build
