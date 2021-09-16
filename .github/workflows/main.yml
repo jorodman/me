@@ -37,15 +37,15 @@ jobs:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/master'
 
-    steps:
-    - name: Download artifact
-      uses: actions/download-artifact@v2
-      with:
-        name: production-files
-        path: ./build
+    # steps:
+    # - name: Download artifact
+    #   uses: actions/download-artifact@v2
+    #   with:
+    #     name: production-files
+    #     path: ./build
 
     - name: Deploy to gh-pages
-      uses: jorodman/actions-gh-pages@v3
+      uses: jorodman/me
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./build
