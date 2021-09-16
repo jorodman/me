@@ -9,7 +9,7 @@ class Projects extends React.Component {
 
             <div class="section-title">
               <h2>Projects</h2>
-              <p>All of the following projects, with the exception of Spotify Playlists, were done for school and therefore I can't host the code publicly on GitHub.</p>
+              <p>All of the following projects, with the exception of Spotify Playlists and my personal website, were done for school and therefore I can't host the code publicly on GitHub</p>
             </div>
 
             <div class="row">

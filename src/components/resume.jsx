@@ -48,7 +48,7 @@ class Resume extends React.Component {
                   <h5>August 2021 - Present</h5>
                   <p><em>InnoSys Inc, Salt Lake City, UT </em></p>
                   <ul>
-                    <li>My role is mostly as a frontend developer with InnoSys, using React.js to develop an improved UI for one of their products.</li>
+                    <li>My role is mostly as a frontend developer with InnoSys, using React.js to develop an improved UI for one of their products</li>
                   </ul>
                 </div>
                 <div class="resume-item">
@@ -56,10 +56,11 @@ class Resume extends React.Component {
                   <h5>March 2020 - May 2021</h5>
                   <p><em>nView Medical, Salt Lake City, UT</em></p>
                   <ul>
-                    <li>Assisted in UI and web server development for an X-ray system. The UI manages the surgical procedure workflow, manipulates the X-ray volume, and displays patient and procedure metadata</li>
-                    <li>Greatly improved system reliability by re-architecting lots of existing code. This included designing and implementing a relational database to replace the poorly designed first database iteration</li>
+                    <li>Assisted in development of the UI, database system, and web server for an X-ray imaging system</li>
+                    <li>Greatly improved system reliability by re-architecting lots of existing code to be more Object Oriented. This included designing and implementing a relational database</li>
                     <li>Implemented both a mouse and touch interface using Javascript, HTML and CSS</li>
                     <li>Acquired vanilla Javascript, Node.js, SQL, git and linux command line skills to complete the work</li>
+                    <li>I’ll leave it at that but feel free to ask me more about these projects, I would love to explain more in depth!</li>
                   </ul>
                 </div>
               </div>

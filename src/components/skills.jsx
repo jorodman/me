@@ -17,8 +17,9 @@ class Skills extends React.Component {
             <div class="section-title">
               <h2>Skills</h2>
               <p>I have a year and a half of industry experience using javascript to develop both frontend and backend services. I also have industry experience
-              with SQL after designing and implementing a relational database for nView Medical. I have experience with Java, C#, and C++ from school projects.
-              The following percentages represent my confidence and comfort with these skills - I have a lot more to learn, even with the skills that I feel most confident in!
+              with MySQL Databases from my work designing and implementing a relational database for nView Medical. My experience with Java, C#, and C++ comes from school projects.
+              The following percentages represent my confidence and comfort with these skills - at this point I'm confident that I can use any of these technologies, but there
+              will be more googling involved in the ones that I am less confident in. I have a lot more to learn, even with the skills that I feel most confident in!
               </p>
             </div>
 

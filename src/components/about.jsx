@@ -20,12 +20,12 @@ class About extends React.Component {
               <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                 <h3>Software Developer and Student</h3>
                 <p class="fst-italic">
-                  I am interested in opportunities for Summer 2022 internships, specifically those in Financial Technology.
+                  I am interested in opportunities for Summer 2022 internships, specifically those in Financial Technology
                 </p>
                 <div class="row">
                   <div class="col-lg-6">
                     <ul>
-                      <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.josephrodman.com</span></li>
+                      <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>https://jorodman.github.io/me</span></li>
                       <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>508 233 0563</span></li>
                       <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Salt Lake City, UT</span></li>
                     </ul>
