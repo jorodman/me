@@ -4,11 +4,11 @@ class Skills extends React.Component {
 
     componentDidMount() {
        var script = document.createElement('script')
-       script.src = "js/main.js"; // path of external javascript file.
+       script.src = "js/skills.js";
        script.class = "external-script";
        document.body.appendChild(script);
     }
-
+    
   render() {
     return (
         <section id="skills" class="skills section-bg">

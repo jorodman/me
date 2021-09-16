@@ -1,8 +1,32 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 
-class Contact extends React.Component {
+function Contact(props) {
 
-  render() {
+    const [status, setStatus] = useState("Submit");
+
+    const handleSubmit = async (e) =>
+    {
+        e.preventDefault();
+        setStatus("Sending...");
+        const { name, email, message } = e.target.elements;
+        let details = {
+          name: name.value,
+          email: email.value,
+          message: message.value,
+        };
+
+        let response = await fetch("http://localhost:5000/contact", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json;charset=utf-8",
+          },
+          body: JSON.stringify(details),
+        });
+        setStatus("Submit");
+        let result = await response.json();
+        alert(result.status);
+    };
+
     return (
         <section id="contact" class="contact section-bg">
           <div class="container">
@@ -38,7 +62,7 @@ class Contact extends React.Component {
               </div>
 
               <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                <form id="contact-form" action="forms/contact.php" method="POST" role="form" class="php-email-form" enctype = "multipart/form-data">
+                <form id="contact-form" onSubmit={handleSubmit} method="POST" role="form" class="php-email-form" enctype = "multipart/form-data">
                   <div class="row">
                     <div class="form-group col-md-6">
                       <label for="name">Your Name</label>
@@ -71,7 +95,6 @@ class Contact extends React.Component {
           </div>
         </section>
     );
-  }
 }
 
 export default Contact;

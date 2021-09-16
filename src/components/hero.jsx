@@ -2,6 +2,15 @@ import React, { Component } from 'react';
 
 class Hero extends React.Component {
 
+
+    componentDidMount() {
+       var script = document.createElement('script')
+       script.src = "js/hero.js";
+       script.class = "external-script";
+       document.body.appendChild(script);
+    }
+
+
   render() {
     return (
         <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
