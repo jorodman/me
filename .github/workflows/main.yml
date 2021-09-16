@@ -23,9 +23,7 @@ jobs:
       run: npm ci
 
     - name: Build project
-      run: |
-        CI='' npm run build
-        npm run server
+      run: CI='' npm run build
 
     - name: Upload production-ready build files
       uses: actions/upload-artifact@v2
@@ -47,6 +45,9 @@ jobs:
         path: ./build
 
     - name: Deploy to gh-pages
+      env:
+         EMAILUSERNAME: ${{ secrets.EMAILUSERNAME }}
+         EMAILPASSWORD: ${{ secrets.EMAILPASSWORD }}
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
