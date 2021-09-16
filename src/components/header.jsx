@@ -1,6 +1,15 @@
 import React from 'react';
 
 class Header extends React.Component {
+
+    componentDidMount() {
+       var script = document.createElement('script')
+       script.src = "js/header.js";
+       script.class = "external-script";
+       document.body.appendChild(script);
+    }
+
+
   render() {
     return (
         <header id="header">
