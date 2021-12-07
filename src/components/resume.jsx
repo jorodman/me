@@ -38,6 +38,7 @@ class Resume extends React.Component {
                       <li>Calculus I-III</li>
                       <li>Linear Algebra</li>
                       <li>Discrete Structures</li>
+                      <li>Computer Architecture</li>
                   </ul>
                 </div>
               </div>

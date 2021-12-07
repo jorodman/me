@@ -17,7 +17,7 @@ class Skills extends React.Component {
             <div class="section-title">
               <h2>Skills</h2>
               <p>I have a year and a half of industry experience using javascript to develop both frontend and backend services. I also have industry experience
-              with MySQL Databases from my work designing and implementing a relational database for nView Medical. My experience with Java, C#, and C++ comes from school projects.
+              with MySQL Databases from my time spent at nView, where I designed and implemented a relational database. My experience with Java, C#, and C++ comes from school projects.
               The following percentages represent my confidence and comfort with these skills - at this point I'm confident that I can use any of these technologies, but there
               will be more googling involved in the ones that I am less confident in. I have a lot more to learn, even with the skills that I feel most confident in!
               </p>
@@ -74,7 +74,7 @@ class Skills extends React.Component {
                 </div>
 
                 <div class="progress">
-                  <span class="skill">C++ <i class="val">30%</i></span>
+                  <span class="skill">Python (Django) <i class="val">50%</i></span>
                   <div class="progress-bar-wrap">
                     <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>

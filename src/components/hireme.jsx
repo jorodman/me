@@ -21,13 +21,7 @@ class HireMe extends React.Component {
                   it could be building a digital parking payment system for REI,
                   it could mean developing a social network extension for Spotify that connects people using on music taste,
                   or it could mean working with ESPN on developing a Tik-Tok like app to better deliver sports highlights to fans.
-              </p>
-              <br></br>
-              <p>
-                  The bottom line is that I would love to work on a tech project that overlaps with something I'm interested in outside of tech.
-                  I would love to work for a company that is already in one of those industries, but it would also be fun to be on a team of other interns,
-                  and with the mentorship of senior software developers, deliver one of these ideas to consumers.
-              </p>
+              </p>            
             </div>
           </div>
 
