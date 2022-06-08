@@ -10,8 +10,10 @@ class HireMe extends React.Component {
             <div class="section-title">
               <h2>What I'm Seeking</h2>
               <p>
-                  I'm looking for an internship for Summer 2022 that will challenge me to become a better developer and
-                  one where I would have the opportunity to work on a project that I'm passionate about.
+                  I plan to graduate in Spring 2023 and am looking for an opportunity that will challenge me to become a better developer and
+                  one where I would have the opportunity to work on a project that I'm passionate about. While most of my experience is in
+                  web development, I'm interested in all kinds of opportunities within technology where I can use programming to solve real
+                  world problems.
               </p>
               <br></br>
               <p>
@@ -21,7 +23,8 @@ class HireMe extends React.Component {
                   it could be building a digital parking payment system for REI,
                   it could mean developing a social network extension for Spotify that connects people using on music taste,
                   or it could mean working with ESPN on developing a Tik-Tok like app to better deliver sports highlights to fans.
-              </p>            
+              </p>
+              <br></br>
             </div>
           </div>
 

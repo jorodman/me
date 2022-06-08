@@ -16,7 +16,7 @@ class Resume extends React.Component {
                 <h3 class="resume-title">Summary</h3>
                 <div class="resume-item pb-0">
                   <h4>Joseph Rodman</h4>
-                  <p><em>Third year Computer Science student at the University of Utah with a year and a half of Industry Experience developing applications in javascript.</em></p>
+                  <p><em>Rising senior studying Computer Science at the University of Utah with two years of Industry Experience developing applications in javascript.</em></p>
                   <ul>
                     <li>Salt Lake City, Utah</li>
                     <li>(508) 233-0563</li>
@@ -31,14 +31,14 @@ class Resume extends React.Component {
                   <p><em>Univeristy of Utah, Salt Lake City, UT</em></p>
                   <ul>
                       <li>Introduction to OOP</li>
-                      <li>Introduction to Algorithms and Data Structures</li>
-                      <li>Software Practice I & Software Practice II</li>
-                      <li>Computer Networking</li>
+                      <li>Algorithms</li>
+                      <li>Software Practice I & II</li>
+                      <li>Artificial intelligence</li>
                       <li>Database Systems</li>
+                      <li>Computer Architecture</li>
                       <li>Calculus I-III</li>
                       <li>Linear Algebra</li>
                       <li>Discrete Structures</li>
-                      <li>Computer Architecture</li>
                   </ul>
                 </div>
               </div>
@@ -46,10 +46,11 @@ class Resume extends React.Component {
                 <h3 class="resume-title">Industry Experience</h3>
                 <div class="resume-item">
                   <h4>Software Developer</h4>
-                  <h5>August 2021 - Present</h5>
+                  <h5>August 2021 - May 2022</h5>
                   <p><em>InnoSys Inc, Salt Lake City, UT </em></p>
                   <ul>
-                    <li>My role is mostly as a frontend developer with InnoSys, using React.js to develop an improved UI for one of their products</li>
+                    <li>Developed features for an IoT management webapp focussed on facility management using React/Redux and Python (django)</li>
+                    <li>Features included light scheduling, a notification system, and tools to monitor and controls sensors</li>
                   </ul>
                 </div>
                 <div class="resume-item">

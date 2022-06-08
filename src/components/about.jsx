@@ -9,7 +9,7 @@ class About extends React.Component {
 
             <div class="section-title">
               <h2>About</h2>
-              <p>I'm a third-year Computer Science student at the University of Utah, passionate about utilizing technology to solve problems. I'm currently working as a software developer for InnoSys Inc while I pursue my degree. Last year I worked on developing the user interface and database system for an X-ray Imaging System while I worked for nView Medical. My biggest interests outside of programming are investing and teaching, the latter of which I sought after my sophomore year as a TA for Introduction to Object Oriented Programming. In my free time I enjoy playing guitar, rock climbing, hiking, and snowboarding.
+              <p>I'm a rising senior studying Computer Science student at the University of Utah, passionate about utilizing technology to solve problems. I'll be working as a Software Development Intern at Fidelity Investments in Boston during summer 2022. Previously, during my junior year, I worked in a software development role for InnoSys Inc in Salt Lake City, developing a web app for their IoT management platform. During my sophomore year I worked on developing the user interface and database system for an X-ray Imaging System while I worked for nView Medical. My biggest interests outside of programming are investing and teaching, the latter of which I sought after my sophomore year as a TA for Introduction to Object Oriented Programming. In my free time I enjoy playing guitar, rock climbing, hiking, and snowboarding.
               </p>
             </div>
 
@@ -19,9 +19,6 @@ class About extends React.Component {
               </div>
               <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                 <h3>Software Developer and Student</h3>
-                <p class="fst-italic">
-                  I am interested in opportunities for Summer 2022 software development internships
-                </p>
                 <div class="row">
                   <div class="col-lg-6">
                     <ul>
