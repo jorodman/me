@@ -1,6 +1,9 @@
 import React from 'react';
+import { vals as config } from '../config.js'
 
 class About extends React.Component {
+  
+  sectionTitle = "About"
 
   render() {
     return (
@@ -8,8 +11,11 @@ class About extends React.Component {
           <div class="container">
 
             <div class="section-title">
-              <h2>About</h2>
-              <p>I'm a rising senior studying Computer Science student at the University of Utah, passionate about utilizing technology to solve problems. I'll be working as a Software Development Intern at Fidelity Investments in Boston during summer 2022. Previously, during my junior year, I worked in a software development role for InnoSys Inc in Salt Lake City, developing a web app for their IoT management platform. During my sophomore year I worked on developing the user interface and database system for an X-ray Imaging System while I worked for nView Medical. My biggest interests outside of programming are investing and teaching, the latter of which I sought after my sophomore year as a TA for Introduction to Object Oriented Programming. In my free time I enjoy playing guitar, rock climbing, hiking, and snowboarding.
+              <h2>
+                {this.sectionTitle}
+              </h2>
+              <p>
+                {config.aboutMe}
               </p>
             </div>
 
@@ -18,20 +24,20 @@ class About extends React.Component {
                 <img src="img/profile-pic.jpg" class="img-fluid" alt=""></img>
               </div>
               <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                <h3>Software Developer and Student</h3>
+                <h3></h3>
                 <div class="row">
                   <div class="col-lg-6">
                     <ul>
-                      <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>https://jorodman.github.io/me</span></li>
-                      <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>508 233 0563</span></li>
-                      <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Salt Lake City, UT</span></li>
+                      <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <a href={config.websiteUrl} target="_blank"><span>{config.websiteUrl}</span></a></li>
+                      <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>{config.phone}</span></li>
+                      <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>{config.location}</span></li>
                     </ul>
                   </div>
                   <div class="col-lg-6">
                     <ul>
-                      <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
-                      <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor's Expected 2023</span></li>
-                      <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>josephrodman5@gmail.com</span></li>
+                      <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>{config.age}</span></li>
+                      <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>{config.email}</span></li>
+                      <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>{config.degree} {config.graduationDate} </span></li>
                     </ul>
                   </div>
                 </div>
