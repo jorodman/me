@@ -5,6 +5,17 @@ class HireMe extends React.Component {
 
   title = "What I'm Seeking"
 
+  getParagraphs() {
+    return (<span>
+      {config.hireMe.map((text) => 
+        (<span>
+          <p>{text}</p>
+          <br></br>
+        </span>)
+      )}
+    </span>)
+  }
+
   render() {
     return (
         <section id="employment">
@@ -12,14 +23,7 @@ class HireMe extends React.Component {
 
             <div class="section-title">
               <h2>{this.title}</h2>
-              <p>
-                {config.hireMeP1}
-              </p>
-              <br></br>
-              <p>
-                {config.hireMeP2}
-              </p>
-              <br></br>
+              {this.getParagraphs()}
             </div>
           </div>
 

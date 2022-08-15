@@ -3,7 +3,7 @@ import { vals as config } from '../config.js'
 
 class About extends React.Component {
   
-  sectionTitle = "About"
+  sectionTitle = "About Me"
 
   render() {
     return (
