@@ -30,7 +30,7 @@ class Header extends React.Component {
                 <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
                 <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
                 <li><a href="#projects" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Projects</span></a></li>
-                <li><a href="#employment" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Hire Me</span></a></li>
+                {/* <li><a href="#employment" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Hire Me</span></a></li> */}
               </ul>
             </nav>
           </div>

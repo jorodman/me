@@ -5,7 +5,7 @@ export const vals = {
     email: "josephrodman5@gmail.com",
     college: "University of Utah",
     degree: "B.S. In Computer Science",
-    graduationDate: "Expected May 2023",
+    graduationDate: "May 2023",
     classes: [
       "Introduction to OOP",
       "Algorithms",
@@ -16,11 +16,11 @@ export const vals = {
       "Calculus 1-3",
       "Discrete Structures",
     ],
-    heroItems: "Student, Developer",
-    resumeSummary: `Rising senior studying Computer Science at the University of Utah with two years of Industry Experience developing applications in javascript.`,
-    myTitle: "Software Developer and Student",
+    heroItems: "Software Engineer", 
+    resumeSummary: `Full stack Software Engineer with with three years of Industry Experience developing applications in javascript.`,
+    myTitle: "Full Stack Software Engineer",
     aboutMe: `
-    I'm a 4th year Computer Science student at the University of Utah, I love to code, and I'm passionate about developing software that simplifies and improves people's lives. I spent my 2022 summer as a full stack intern at Fidelity Investments, working alongside another intern to develop an AutoSys job management web app for internal use by the Fixed Income chapter of Asset Management. I'm currently applying for full time software development positions whose start date is in Summer 2023, as I expect to graduate this upcoming spring. While most of my industry experience has been in full stack web development, I’m open to all positions which heavily involve programming.
+    Since taking my first programming class in 2019, I've been captivated by the realm of software engineering. I consider myself fortunate to have a career that not only keeps me engaged but also presents daily opportunities for growth and problem-solving. Joining Marq in 2023 as a Software Engineer has been a rewarding journey. Working alongside a great engineering team, I've had the pleasure of contributing to their cloud-based design tool while learning a lot from those around me. Working within a small team amidst a large legacy codebase, I've embraced the chance to take ownership of projects with significant user impact
     `,
     websiteUrl: "https://josephrodman.com",
     hireMe: [
@@ -29,41 +29,51 @@ export const vals = {
       `That being said, I really just love coding and being challenged to grow my technical skills. None of my previous jobs or school projects have involved any of my passions, but I’ve enjoyed them all because I just enjoy coding.`,
     ],
     projectsDescription: `
-    I've linked the github pages for each of my personal projects, but I can't share the code for any projects done for school.
+    I've linked the github pages for each of my personal projects.
     `,
     projects: [
       {
+        link: "https://github.com/jorodman/HuddleUpCopy",
+        name: "Huddle Up (Capstone Project)",
+        description: "A fantasy football webapp in which users manage a team together to recreate the comradery of traditional team sports"
+      },
+      {
         link: "https://github.com/jorodman/MLBStats",
         name: "MLB Stats",
-        description: "Webapp that presents sortable MLB statistical league leaders and a player search page. Developed using Angular and PrimeNG, deployed using AWS S3 and Cloudfront"
+        description: "Webapp that presents sortable MLB statistical league leaders and a player search page. Developed using Angular and PrimeNG, deployed using AWS S3 and Cloudfront. (API has been deprecated so the webapp no longer works :/"
       },
       {
         link: "https://github.com/jorodman/SpotifyExtension",
         name: "Spotify Playlists",
         description: "Webapp that uses the Spotify API to create and update playlists for users based off of their top songs. The UI is a bootstrap html template, the front end uses javascript, and the backend uses express and a MySQL database",
       },
-      {
-        link: "https://github.com/jorodman/me",
-        name: "Personal Website",
-        description: "A bootstrap template that I converted to use React compontents. Deployed via GitHub pages and configured CD with GitHub actions"
-      },
-      {
-        name: "Secure Text Message Transfer",
-        description: "Securely sends text messages between two computers, developed using java’s cryptography and socket libraries",
-      },
-      {
-        name: "Peer to Peer File Sharing",
-        description: "Mimics peer-to-peer file sharing to send files between computers using java’s TCP socket library"
-      },
-      {
-        name: "Tank Wars Multiplayer Game",
-        description: "Developed client and server programs for a multiplayer tank wars game, written in C#, done with a partner as part of Software Practice 1"
-      }
+      // {
+      //   link: "https://github.com/jorodman/me",
+      //   name: "Personal Website",
+      //   description: "A bootstrap template that I converted to use React compontents. Deployed via GitHub pages and configured CD with GitHub actions"
+      // },
     ],
     skillsParagraph: `
-    I've been developing frontend and backend applications for two years between my time working at Fidelity, nView, and iLumens inc. I've had industry experience with Angular (Fidelity), React/Redux (iLumens), Django (Fidelity, iLumens), and SQL (Fidelity, nView), while my experience with Java, C#, and C++ comes from school projects. While I'm comfortable using all of the aforementioned technologies, at this point I’m confident that I can pretty easily pick up any language or technology.
+    I've been developing web applications for three years. I've had industry experience with Angular (Marq), Scala (Marq), React (iLumens), Django (Fidelity, iLumens), and SQL (Marq, Fidelity, nView), while my experience with Java, C#, and C++ comes from school projects.
+     While I'm comfortable using all of the aforementioned technologies, at this point I’m confident that I can pretty easily pick up any language or technology.
     `,
     jobs: [
+      {
+        company: "Marq (formerly Lucidpress)",
+        title: "Software Engineer II",
+        duration: "February 2023 - Present",
+        location: "Draper, UT",
+        accomplishments: [
+          "Collaborated with my team in an agile environment to develop new features for a document editor",
+          "Built a brand-controlled Dynamic QR Code feature with integrated analytics, completing the project in 3 months",
+          "Created Datadog metrics and alerts to monitor the Dynamic QR Codes feature",
+          "Heavily contributed to a multi-brand template library team project",
+          "Identified and resolved a Bazel OOM issue that caused Jenkins builds to fail",
+          "Prioritized tackling tech debt and improving the codebase by removing feature flags, removing deprecated code, and adding documentation",
+          "Utilized Datadog and Splunk to debug production issues as part of the on-call rotation",
+          "Full stack development using Angular and Scala",
+        ]
+      },
       {
         company: "Fidelity Investments",
         title: "Full Stack Development Intern",

@@ -20,7 +20,7 @@ function App() {
               <Skills />
               <Resume />
               <Projects />
-              <HireMe />
+              {/* <HireMe /> */}
           </main>
           <Footer />
       </div>

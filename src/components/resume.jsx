@@ -36,7 +36,7 @@ class Resume extends React.Component {
             </div>
 
             <div class="row">
-              <div class="col-lg-6" data-aos="fade-up">
+              <div class="col-lg-12" data-aos="fade-up">
                 <h3 class="resume-title">Summary</h3>
                 <div class="resume-item pb-0">
                   <h4>Joseph Rodman</h4>
@@ -48,6 +48,8 @@ class Resume extends React.Component {
                   </ul>
                 </div>
 
+                <h3 class="resume-title">Industry Experience</h3>
+                {this.getJobExperience()}
                 <h3 class="resume-title">Education</h3>
                 <div class="resume-item">
                   <h4>{config.degree}</h4>
@@ -55,10 +57,6 @@ class Resume extends React.Component {
                   <p><em>{config.college}</em></p>
                   {this.getClasses()}
                 </div>
-              </div>
-              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                <h3 class="resume-title">Industry Experience</h3>
-                {this.getJobExperience()}
               </div>
             </div>
 
